@@ -6,5 +6,7 @@ This project explored spinwave-based computation as a candidate architecture for
 
 The provided example script In3Out5.py defined a spin-wave propagation structure. The middle injection port inputs pre-processed audio data, and the rest of injection ports input two defined reference signals. This construction serve for five-category audio classification tasks.
 
+The tool functions of audio pre-processing is in the Audio_preprocess.py
+
 # Source of Audio data
 The dataset that we used is from ‘Freesound Audio Tagging 2019’ on Kaggle. It was compiled by the Music Technology Group at Universitat Pompeu Fabra using content from Freesound. Ground-truth labels are provided at the clip level and indicate the presence of a sound category in each clip, so they constitute weak labels or tags rather than frame-accurate annotations. The audio clips vary in duration from approximately 0.3 to 30 s and are sampled at 44.1 kHz. The audio content from FSD has been manually labeled by humans following a data labeling process using the Freesound Annotator platform. https://www.kaggle.com/competitions/freesound-audio-tagging-2019/overview
